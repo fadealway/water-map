@@ -1,0 +1,16 @@
+<div class="map">
+<div class="all-meter">
+ 
+  <app-flow-meter  *ngFor="let data of datas" [name]="data?.name"></app-flow-meter>
+  
+</div>
+
+<div class="raw-water">
+  <!--<app-raw-water></app-raw-water>-->
+    <app-raw-water  *ngFor="let data of datas; let i = index" [hidden]="i" [name]="data?.name"></app-raw-water>
+
+</div>
+
+<div class="all-card">
+<app-card-water  *ngFor="let data of datas; let i = index" [hidden]="!i" [name]="data?.name"></app-card-water>
+</div>

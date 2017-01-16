@@ -1,0 +1,43 @@
+div.map{
+        width: auto;
+    height: auto;
+    // background-color: #fafafa;
+    // position: fixed;
+    // position: absolute;
+    // width: 1920px;
+    // height: 1080px;
+    //     width: 100%;
+    // height: 100%;
+
+    // left: 10%;
+
+    // position:fixed;
+
+}
+
+.all-meter {
+    display: flex;
+    position: fixed;
+    left: 10px;
+}
+
+.raw-water {
+    position: absolute;
+    right: 10px;
+}
+
+.all-card {
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+}
+
+app-flow-meter {
+   padding: 10px;
+}
+
+app-card-water {
+    float: right;
+    padding: 5px
+}
+
